@@ -119,8 +119,31 @@ a latitude e longitude do documento e nem sempre o município pode ser encontrad
 ### 3. Inserção no ElasticSearch
 
 Para inserir os dados é necessário a execução do script `send_bulk_es.py`. Ele irá utilizar
-os arquivos JSON gerados e irá enviar de 500 em 500 documentos.
+os arquivos JSON gerados e irá enviar de 500 em 500 documentos para o Elasticsearch.
 
 Ele utiliza [Bulk helpers](https://elasticsearch-py.readthedocs.io/en/master/helpers.html#bulk-helpers)
 para agilizar o envio dos dados, visto que se fosse enviado cada documento por request, seria muito
 custoso.
+
+### 4. Visualização dos Dados no Kibana
+
+![image](https://user-images.githubusercontent.com/18057391/75834604-36449600-5d9b-11ea-9d7b-e0285b67a7a3.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834631-4ceaed00-5d9b-11ea-9e9b-30250f0a2810.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834657-65f39e00-5d9b-11ea-9af5-70f5c5a658a7.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834670-773caa80-5d9b-11ea-8ede-273f6dafd4b9.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834685-81f73f80-5d9b-11ea-961b-1328e7ed88e9.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834692-8885b700-5d9b-11ea-902c-6a0427ebc664.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834703-90455b80-5d9b-11ea-8c08-1d6df67db284.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834707-963b3c80-5d9b-11ea-9a7a-90b11be71f75.png)
+
+![image](https://user-images.githubusercontent.com/18057391/75834717-9d624a80-5d9b-11ea-9003-4e66913d6345.png)
+
+
+
